@@ -1,0 +1,57 @@
+.navbar{
+    background-color:#000;
+    opacity: 0.75;
+}
+
+ .banner{
+    height: 80vh;
+    background-image: url(../img//bckg-03.jpg);
+    filter:grayscale(0.6);
+    background-size: cover;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+ }
+
+ .banner h1,h2{
+    color: #ffffff;
+    text-shadow: 2px 2px 0 black;
+}
+
+.banner h1{
+    font-size: 5em;
+    text-shadow: 2px 2px 0 black;
+}
+
+.portifolio{
+    margin: 0 20%;
+}
+
+.carousel-projects img{
+    height: 60vh;
+    object-fit: cover;
+}
+
+.footer{
+    background-color:#000;
+    opacity: 0.75;
+}
+
+.footer img{
+    width: 32px;
+    opacity: 0.4;
+}
+
+.error{
+    color: red; 
+    font-weight:bold;
+}
+
+input.error{
+    border-color: red;   
+}
+
+textarea.error{
+    border-color: red;   
+}
